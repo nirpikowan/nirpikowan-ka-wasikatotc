@@ -1,0 +1,85 @@
+@font-face{
+	font-family: 'moar';
+	src: url('Roboto/Roboto-bold.ttf');
+}
+
+body {
+	background-color: maroon;
+	color: black;
+	font-family: Helvetica; 
+	font-size:20px
+}
+h1{
+ 	color: blue;
+ 	font-family: auto
+ 	font-size: 40px;
+ 	text-align: center;
+}
+h1{
+	font-family: 'moar', auto,'trebuchet MS';
+	border: solid 3px black;
+}
+h2{
+	border-style: double;
+	border-top-left-radius: dotted;
+	border-color: black;
+	text-align: center;
+}
+h2{
+	color: black;
+	font-family: courier
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+p{
+	color: yellow;
+}
+
+article{ 
+	color: black;
+	text-decoration-line: : black;
+}
+li{
+	color: black;
+}
+body{
+	background-image: url(102.jpg); 
+}
+@media (max-width: 720px) {
+	.card-white-color: ;
+}
+.container {
+	width: 700px;
+	margin: 60px auto;
+}
+header section p{
+	border: solid 2px;
+	width: 250px;
+	height: 200px;
+
+}
+p{
+	border: solid 1px;
+	width: 1000px;
+	height: 320px;
+	border-color: blue;
+}
+li { color: white;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	color: yellow;
+}
+body img{
+	height: 200px;
+	background-image: url('galaxy.jpg');
+	background-size: cover;
+	padding: 1px;
+}
+*{
+	
+}
